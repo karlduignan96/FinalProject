@@ -1,0 +1,379 @@
+.jumbotron{
+min-height:500px;
+margin-bottom:0px;
+	
+}
+#mainjumbo
+{
+background-image:url("main.jpg");
+background-attachment:fixed;
+background-size:cover;
+min-height:900px;
+margin-bottom:0px;
+}
+
+.alt1
+{
+background:#eee;
+min-height:400px;
+}
+
+.alt2
+{
+background:#333;
+min-height:150px;
+color:#fff;
+text-align:center;
+}
+
+.padding
+{
+padding-top:20px;
+padding-bottom:20px;
+}
+
+.container1{
+	
+	text-align:center;
+	color:white;
+	font-family: 'Lobster', cursive;
+}
+
+.welcome2{
+	
+	text-align:center;
+	color:white;
+	font-family: 'Righteous', cursive;
+}
+
+.navbar-brand{
+	
+	font-size:40px;
+	
+}
+
+
+
+
+.bmenu li{
+	font-size: 40px;
+	display: block;
+	line-height: 66px;
+}
+
+.bmenu li a{
+	white-space: nowrap;
+	color: transparent;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 3px white;
+	letter-spacing: 1px;
+	-moz-transform: scale(0.8); 
+	-ms-transform: scale(0.8); 
+	-o-transform: scale(0.8); 
+	-webkit-transform: scale(0.8); 
+	transform: scale(0.8);
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+
+.bmenu:hover li a{
+	text-shadow: 0px 0px 10px #fff;
+}
+.bmenu li a:hover{
+	text-shadow: none;
+	color: #fff;
+	
+	-moz-transform: scale(1); 
+	-ms-transform: scale(1); 
+	-o-transform: scale(1); 
+	-webkit-transform: scale(1); 
+	transform: scale(1); 
+}
+
+/*Clients*/
+
+#workexpjumbo 
+{	
+background-image:url("clients.jpg");
+background-size: cover;
+background-repeat:no-repeat;
+}
+
+#pastclients{
+	
+	color:white;
+	
+}
+.clientshead{
+	
+	color:white;
+	
+}
+
+#worktwo{
+	
+	font-family: 'Kaushan Script', cursive;
+}
+
+#workthree {
+	font-family: 'Kaushan Script', cursive;
+	
+	
+}
+
+#workexphead{
+	font-family: 'Kaushan Script', cursive;
+	text-align:center;
+	text-decoration:underline;
+	
+	
+}
+
+
+
+
+
+#googletext{
+	
+	font-family: 'Kaushan Script', cursive;
+
+}
+
+.animated { 
+    -webkit-animation-duration: 3s; 
+    animation-duration: 3s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    -webkit-animation-timing-function: ease-in; 
+    animation-timing-function: ease-in; 
+} 
+
+@-webkit-keyframes rollIn { 
+    0% { opacity: 0; -webkit-transform: translateX(-100%) rotate(-120deg); } 
+    100% { opacity: 1; -webkit-transform: translateX(0px) rotate(0deg); } 
+} 
+@keyframes rollIn { 
+    0% { opacity: 0; transform: translateX(-100%) rotate(-120deg); } 
+    100% { opacity: 1; transform: translateX(0px) rotate(0deg); } 
+} 
+.rollIn { 
+    -webkit-animation-name: rollIn; 
+    animation-name: rollIn; 
+}
+
+/*About me*/
+
+
+#aboutusjumbo{
+	
+	background-image:url("aboutus.jpg");
+	background-size:cover;
+	
+}
+
+#meetus{
+	text-align:center;
+	text-decoration:underline;
+	font-family: 'Kaushan Script', cursive;
+	
+}
+
+.animated { 
+    -webkit-animation-duration: 3s; 
+    animation-duration: 3s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    -webkit-animation-timing-function: ease-in; 
+    animation-timing-function: ease-in; 
+} 
+
+@-webkit-keyframes fadeInLeft { 
+    0% { 
+        opacity: 0; 
+        -webkit-transform: translateX(-20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateX(0); 
+    } 
+} 
+@keyframes fadeInLeft { 
+    0% { 
+        opacity: 0; 
+        transform: translateX(-20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateX(0); 
+    } 
+} 
+.fadeInLeft { 
+    -webkit-animation-name: fadeInLeft; 
+    animation-name: fadeInLeft; 
+}
+
+#gympic{
+	
+	position:absolute;
+	top:150px;
+	left:100px;
+	
+}
+
+#gymbuddies{
+	
+	position:relative;
+	
+	
+}
+
+#picsofgym{
+	
+	
+}
+
+/*Packages*/
+
+#packagesjumbo{
+	
+	background-image:url("packages.jpg");
+	background-size:cover;
+	
+}
+
+.tg  {
+	background-image:url("table.png");
+	border-collapse:collapse;
+border-spacing:0;
+margin:0px auto;
+
+}
+
+
+.tg td{
+	
+	font-family:Arial, sans-serif;
+	font-size:22px;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	
+	}
+	
+	
+.tg th{
+	font-family:Arial, sans-serif;
+	font-size:22px;
+	font-weight:normal;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	
+	}
+
+.tg .tg-amwm{
+	
+	font-weight:bold;
+	text-align:center;
+	
+	}
+	
+#packagetitle{
+	color:black;
+	
+}
+
+.animated { 
+    -webkit-animation-duration: 2s; 
+    animation-duration: 2s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    -webkit-animation-timing-function: ease-in; 
+    animation-timing-function: ease-in; 
+} 
+
+@-webkit-keyframes rotateInUpLeft { 
+    0% { 
+        -webkit-transform-origin: left bottom; 
+        -webkit-transform: rotate(90deg); 
+        opacity: 0; 
+    } 
+    100% { 
+        -webkit-transform-origin: left bottom; 
+        -webkit-transform: rotate(0); 
+        opacity: 1; 
+    } 
+} 
+@keyframes rotateInUpLeft { 
+    0% { 
+        transform-origin: left bottom; 
+        transform: rotate(90deg); 
+        opacity: 0; 
+    } 
+    100% { 
+        transform-origin: left bottom; 
+        transform: rotate(0); 
+        opacity: 1; 
+    } 
+} 
+.rotateInUpLeft { 
+    -webkit-animation-name: rotateInUpLeft; 
+    animation-name: rotateInUpLeft; 
+}
+
+/*SHOP*/
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+#shopjumbo{
+	
+	background-image:url("shop.png");
+
+		
+	}
+	
+

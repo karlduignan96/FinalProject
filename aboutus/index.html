@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Karl Duignan</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../css/style.css" />
+		
+	</head>
+	<body>
+	<div class="navbar-static-top navbar-inverse" id="home">
+		<div class="container">
+			<div class="navbar-brand">
+				<a href="../index.html">KDF</a>
+			</div>
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				Menu
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="index.html">About Us</a></li>
+					<li><a href="../clients/index.html">Past Clients</a></li>
+					<li><a href="../packages/index.html">Packages</a></li>
+					<li><a href="../shop/index.html">Shop</a></li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="jumbotron" id="aboutusjumbo">
+		<div class="container">
+		
+		<div id="animated-example" class="animated fadeInLeft">
+		
+				<h1 id="pastclients">About Us.</h1>
+				<p class="clientshead">Get to know who we are and what we do!</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="alt1 padding" id="about">
+	<div class="container">
+		<div class="row">
+		<h1 id="meetus">Meet our Trainers!</h1>
+			<div class="col-md-4">
+			
+				
+				<h2 class="text-center">Karl Duignan</h2>
+				<p class="text-justify">I am the Fitness Coordinator for Personal Training & Assessments and owner at KD Fitness. I received a BS in Health, Physical Education & Exercise Science from Virginia Commonwealth University and am currently working on my MS in Health Promotion & Exercise Science from California University of Pennsylvania. I am certified in strength and conditioning specialist through the National Strength and Conditioning Association (NSCA), a certified health fitness specialist through the American College of Sports Medicine (ACSM), and a certified health coach through the American Council on Exercise (ACE). I have experience working with a wide variety of populations through many different fitness domains. I enjoy all aspects of fitness and am eager to spread that passion to others! </p>
+			</div>
+			<div class="col-md-4">
+				<h2 class="text-center">Leandro Silva</h2>
+				<p class="text-justify">Leo is a graduate of AU and studied justice and law.  He regards fitness as the most important aspect of his life.  leo has been teaching fitness classes such as Sculpt & Tone, Killer Kettlebells and Indoor Cycling since August 2014.  He has been a certified personal trainer with the American Council on Exercise (ACE) since December 2014.  He enjoys working out, competing in power lifting competitions and spending time helping others reach their fitness goals. </p>
+				
+			</div>
+			<div class="col-md-4">
+				<h2 class="text-center">Mahamed Basha</h2>
+				<p class="text-justify">Basha is a certified personal trainer through the American Council on Exercise (ACE).  He is currently working towards his Health Promotion degree here at American University.  He has Strength and Conditioning experience working with AU athletes.  Basha has been active his whole life, playing on both club and school sports teams in High School.  He enjoys exercise and believes that physical activity is a large portion of overall wellness.  </p>
+				
+			</div>
+		
+		</div>
+	</div>	
+	</div>
+		<h1 id="workexphead">Where are we?</h1>
+		
+		
+		<div class="container" id="portfolio">
+		<div class="row padding" id="one">
+			<div class="col-md-6">
+			
+				<p>We are very centrally located making it easy for anyone to come and work with us! We are 5 mintues away from connolly station and have a luas line and bus stops right outside our doors!</p>
+				<img id="gympic" src="thegym.jpg"/>
+			</div>
+			<div class="col-md-6">
+				<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="500" height="443" src="https://maps.google.com/maps?hl=en&q=national college of ireland&ie=UTF8&t=satellite&z=19&iwloc=B&output=embed"><div><small><a href="http://embedgooglemaps.com">embedgooglemaps.com</a></small></div><div><small><a href="http://buyproxies.io/">buy private proxies</a></small></div></iframe>
+			</div>
+		</div>	
+		<hr />
+		
+		<h1>Why us?</h1>
+		<div class="row padding" id="two">
+			<div class="col-md-6">
+				<p>We are the gym that really gets to know who we work with. We become more than just trainers, we become FRIENDS. </p>
+				<p>We treat every different customer in their own special way as everyone is different at different strengths and have different mindsets. That is why WE are Different to an other gym. </p>
+			</div>
+			<div class="col-md-6">
+			
+				<img src="gymbuddies.jpg" id="gymbuddies">
+			
+			</div>
+		</div>
+		<hr />
+		<div class="row padding" id="three">
+			<div id="slideshow">
+   <div id="picsofgym">
+     <img src="workout1.jpg">
+   
+     <img src="workout2.jpg">
+   
+   
+     <img src="workout3.jpg">
+    
+
+	<img src="workout4.jpg">
+	 
+	 </div>
+
+		</div>
+		<hr />
+	</div>
+</div>
+	<div class="alt2">
+		<div class="container">
+			<footer>
+				&copy; Karl Duignan <br />
+				<a href="#home">Back to top</a>
+			</footer>
+		</div>
+	</div>
+	
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script>
+	$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+	</script>
+	</body>
+</html>

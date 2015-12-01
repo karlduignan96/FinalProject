@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=Lobster|Righteous|Kaushan+Script|Comfortaa|Domine&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<title>Karl Duignan</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		
+	</head>
+	<body>
+	<div class="navbar-static-top navbar-inverse" id="home">
+		<div class="container">
+			<div class="navbar-brand">
+				<a href="index.html">KDF</a>
+			</div>
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				Menu
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Home</a></li>
+					<li><a href="aboutus/index.html">About Us</a></li>
+					<li><a href="clients/index.html">Past Clients</a></li>
+					<li><a href="packages/index.html">Packages</a></li>
+					<li><a href="shop/index.html">Shop</a></li>
+					<li><a href="#contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="jumbotron" id="mainjumbo">
+		<div class="container1">
+			<h1>Welcome to KD Fitness</h1>
+			<p class="welcome2">This is where you can begin to change your life.</p>
+			<p class="welcome2">This is where you become a better YOU.</p>
+		
+		
+		<ul class="bmenu">
+	<li class="welcome2"><a href="aboutus/index.html">About Us</a></li>
+	<li class="welcome2"><a href="clients/index.html">Past Clients</a></li>
+	<li class="welcome2"><a href="packages/index.html">Packages</a></li>
+	<li class="welcome2"><a href="shop/index.html">Shop</a></li>
+	<li class="welcome2"><a href="#contact">Contact</a></li>
+		</ul>
+
+		</div>
+	</div>
+	
+	
+	<h1 id="contacthead">Contact Us Now!</h1>
+	
+	<div class="container padding" id="contact">
+		<form role="form">
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" class="form-control" id="email" name="email" placeholder="example@example.com"/>
+			</div>
+			<div class="form-group">
+				<label for="name">Name:</label>
+				<input type="text" class="form-control" id="name" name="name" placeholder="Your name here"/>
+			
+			</div>
+			<div class="form-group">
+				<label for="message">Message:</label>
+				<textarea class="form-control" name="message" id="message" placeholder="Your message here"></textarea>
+			</div>
+			<div class="form-group">
+				<input type="checkbox" /> Send me promotional content
+			</div>
+			<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+	</div>
+	
+	<div class="alt2">
+		<div class="container">
+			<footer>
+				&copy; Karl Duignan <br />
+				<a href="#home">Back to top</a>
+			</footer>
+		</div>
+	</div>
+	
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script>
+	$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+	</script>
+	</body>
+</html>

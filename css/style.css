@@ -1,0 +1,558 @@
+.jumbotron{
+min-height:500px;
+margin-bottom:0px;
+	
+}
+#mainjumbo
+{
+background-image:url("main.jpg");
+background-attachment:fixed;
+background-size:cover;
+min-height:900px;
+margin-bottom:0px;
+}
+
+.alt1
+{
+background:#eee;
+min-height:400px;
+}
+
+.alt2
+{
+background:#333;
+min-height:150px;
+color:#fff;
+text-align:center;
+}
+
+.padding
+{
+padding-top:20px;
+padding-bottom:20px;
+}
+
+.container1{
+	
+	text-align:center;
+	color:white;
+	font-family: 'Lobster', cursive;
+}
+
+.welcome2{
+	
+	text-align:center;
+	color:white;
+	font-family: 'Righteous', cursive;
+}
+
+.navbar-brand{
+	
+	font-size:40px;
+	
+}
+
+
+
+
+.bmenu li{
+	font-size: 40px;
+	display: block;
+	line-height: 66px;
+}
+
+.bmenu li a{
+	white-space: nowrap;
+	color: transparent;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 3px white;
+	letter-spacing: 1px;
+	-moz-transform: scale(0.8); 
+	-ms-transform: scale(0.8); 
+	-o-transform: scale(0.8); 
+	-webkit-transform: scale(0.8); 
+	transform: scale(0.8);
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+
+.bmenu:hover li a{
+	text-shadow: 0px 0px 10px #fff;
+}
+.bmenu li a:hover{
+	text-shadow: none;
+	color: #fff;
+	
+	-moz-transform: scale(1); 
+	-ms-transform: scale(1); 
+	-o-transform: scale(1); 
+	-webkit-transform: scale(1); 
+	transform: scale(1); 
+}
+
+/*Clients*/
+
+#workexpjumbo 
+{	
+background-image:url("clients.jpg");
+background-size: cover;
+background-repeat:no-repeat;
+}
+
+#pastclients{
+	
+	color:white;
+	
+}
+.clientshead{
+	
+	color:white;
+	
+}
+
+#worktwo{
+	
+	font-family: 'Kaushan Script', cursive;
+}
+
+#workthree {
+	font-family: 'Kaushan Script', cursive;
+	
+	
+}
+
+#workexphead{
+	font-family: 'Kaushan Script', cursive;
+	text-align:center;
+	text-decoration:underline;
+	
+	
+}
+
+
+
+
+
+#googletext{
+	
+	font-family: 'Kaushan Script', cursive;
+
+}
+
+.animated { 
+    -webkit-animation-duration: 3s; 
+    animation-duration: 3s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    -webkit-animation-timing-function: ease-in; 
+    animation-timing-function: ease-in; 
+} 
+
+@-webkit-keyframes rollIn { 
+    0% { opacity: 0; -webkit-transform: translateX(-100%) rotate(-120deg); } 
+    100% { opacity: 1; -webkit-transform: translateX(0px) rotate(0deg); } 
+} 
+@keyframes rollIn { 
+    0% { opacity: 0; transform: translateX(-100%) rotate(-120deg); } 
+    100% { opacity: 1; transform: translateX(0px) rotate(0deg); } 
+} 
+.rollIn { 
+    -webkit-animation-name: rollIn; 
+    animation-name: rollIn; 
+}
+
+/*About me*/
+
+
+#aboutusjumbo{
+	
+	background-image:url("aboutus.jpg");
+	background-size:cover;
+	
+}
+
+#meetus{
+	text-align:center;
+	text-decoration:underline;
+	font-family: 'Kaushan Script', cursive;
+	
+}
+
+.animated { 
+    -webkit-animation-duration: 3s; 
+    animation-duration: 3s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    -webkit-animation-timing-function: ease-in; 
+    animation-timing-function: ease-in; 
+} 
+
+@-webkit-keyframes fadeInLeft { 
+    0% { 
+        opacity: 0; 
+        -webkit-transform: translateX(-20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateX(0); 
+    } 
+} 
+@keyframes fadeInLeft { 
+    0% { 
+        opacity: 0; 
+        transform: translateX(-20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateX(0); 
+    } 
+} 
+.fadeInLeft { 
+    -webkit-animation-name: fadeInLeft; 
+    animation-name: fadeInLeft; 
+}
+
+#gympic{
+	
+	position:absolute;
+	top:150px;
+	left:100px;
+	
+}
+
+#gymbuddies{
+	
+	position:relative;
+	
+	
+}
+
+#picsofgym{
+	
+	
+}
+
+/*Packages*/
+
+#packagesjumbo{
+	
+	background-image:url("packages.jpg");
+	background-size:cover;
+	
+}
+
+#packagetitle{
+	color:black;
+	
+}
+
+.qr {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .prices {
+        padding-bottom: 40px;
+        color: black;
+        background: #B3C0DD;
+        background: -moz-linear-gradient(-45deg, #3f4c6b 0%, #3f4c6b 100%);
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#3f4c6b), color-stop(100%,#3f4c6b));
+        background: -webkit-linear-gradient(-45deg, #B3C0DD 0%,#3f4c6b 100%);
+        background: -o-linear-gradient(-45deg, #B3C0DD 0%,#3f4c6b 100%);
+        background: -ms-linear-gradient(-45deg, #B3C0DD 0%,#3f4c6b 100%);
+        background: linear-gradient(135deg, #B3C0DD 0%,#3f4c6b 100%);
+    }
+
+    .pricing-tables-jumbotron {
+        text-align: center;
+        background: none;
+    }
+
+    .big {
+        font-size: 37px;
+    }
+    
+    .option {
+        background: #f9f9f9;
+        box-shadow: 0 0 1px rgba(0, 0, 0, .2);
+        border-radius: 4px 4px 0 0;
+        position: relative;
+        margin: 20px 0;
+        text-align: center;
+        color: #333;
+    }
+
+        .option:hover .hided-icon {
+            color: #fff;
+            padding: 0 10px;
+        }
+
+        .option > .option-title {
+            padding: 20px;
+        }
+
+            .option > .option-title > h3 {
+                font-weight: bold;
+                font-size: 32px;
+                text-transform: uppercase;
+                margin: 0;
+            }
+
+            .option > .option-title > span {
+                font-style: italic;
+                font-size: 16px;
+            }
+
+        .option > .option-price {
+            background: #fff;
+            padding: 0 0 10px;
+            color:#18b194;
+        }
+
+            .option > .option-price > .price {
+                display: block;
+                font-size: 72px;
+                font-weight: bold;
+                font-style: italic;
+            }
+
+            .option > .option-price > .period {
+                font-size: 14px;
+            }
+
+        .option .option-list {
+            padding: 0;
+        }
+
+        .option .item-list {
+            list-style: none;
+            padding: 0;
+        }
+
+            .option .item-list li:nth-child(even) {
+                background: #fdfdfd;
+            }
+
+            .option .item-list > li {
+                padding: 10px 5px;
+                font-size: 16px;
+            }
+
+        .option .btn {
+            width: 100%;
+            padding: 18px 8px;
+            border-radius: 0;
+            border: none;
+            text-transform: uppercase;
+        }
+
+        .option .btn-success {
+            color: #fff;
+            background: #18b194;
+        }
+
+            .option .btn-success:hover {
+                background: #1d7019;
+            }
+
+        .option .hided-icon {
+            color: #0FB112;
+            margin-left: -14px;
+            -webkit-transition: all 0.7s ease-in-out;
+            -moz-transition: all 0.7s ease-in-out;
+            -o-transition: all 0.7s ease-in-out;
+            transition: all 0.7s ease-in-out;
+        }
+
+/*SHOP*/
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+#shopjumbo{
+	background-color:white;
+	
+}
+	
+#shoptitle{
+	
+	font-family: 'Kaushan Script';
+	color:black;
+	
+}
+
+.col-item
+{
+    border: 2px solid #2323A1;
+    border-radius: 5px;
+    background: #FFF;
+}
+.col-item .photo img
+{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col-item .info
+{
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+}
+.col-item:hover .info {
+    background-color: rgba(215, 215, 244, 0.5); 
+}
+.col-item .price
+{
+    /*width: 50%;*/
+    float: left;
+    margin-top: 5px;
+}
+
+.col-item .price h5
+{
+    line-height: 20px;
+    margin: 0;
+}
+
+.price-text-color
+{
+    color: #00990E;
+}
+
+.col-item .info .rating
+{
+    color: #003399;
+}
+
+.col-item .rating
+{
+    /*width: 50%;*/
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+
+.col-item .separator
+{
+    border-top: 1px solid #FFCCCC;
+}
+
+.clear-left
+{
+    clear: left;
+}
+
+.col-item .separator p
+{
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.col-item .separator p i
+{
+    margin-right: 5px;
+}
+.col-item .btn-add
+{
+    width: 50%;
+    float: left;
+}
+
+.col-item .btn-add
+{
+    border-right: 1px solid #CC9999;
+}
+
+.col-item .btn-details
+{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+.controls
+{
+    margin-top: 20px;
+}
+[data-slide="prev"]
+{
+    margin-right: 10px;
+}
+	
+	/*CONTACT*/
+	
+#contacthead{
+	
+	text-align:center;
+	text-decoration:underline; 
+	
+}	
+
+#contact{
+	
+	padding-left:200px;
+	padding-right:200px;
+	
+	
+}
+
+#order1{
+	
+	padding-bottom:84px;
+	
+}
+
+#order2{
+	
+	padding-bottom:84px;
+	
+}
+
